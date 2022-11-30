@@ -174,7 +174,7 @@ div.texto-pag2{
   align-items: center;
 }
 div.box{
-  /* background-color: #448de0; */
+  /* background-color: #448de0;  */
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -236,7 +236,7 @@ div.subiten{
     justify-content: center;
   }
   div.box{
-    height: 330px;
+    height: 340px;
   }
   
 }
