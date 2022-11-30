@@ -245,6 +245,7 @@ button.btn{
   display: block; 
 }
 div.section2{
+  background-color: red;
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 50px;
@@ -344,7 +345,7 @@ div.section2-texto{
 }
 @media (max-width: 700px){
   div.box{
-    height: 280vh;
+    height: 330vh;
   }
   
 }
