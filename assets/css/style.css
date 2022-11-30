@@ -174,10 +174,9 @@ div.texto-pag2{
   align-items: center;
 }
 div.box{
-  /* background-color: black; */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   margin-top: 3rem;
   /* background-color: aquamarine; */
