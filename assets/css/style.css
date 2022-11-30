@@ -188,10 +188,9 @@ div.itens{
   display: flex;
 
   flex-wrap: wrap;
-  /* height: 800px; */
-  /* width: 800px; */
+
   margin: 5px;
-  /* background-color: blue; */
+ 
 }
 div.subiten{
   box-shadow: 6px 1px 17px 0px gray;  
@@ -199,7 +198,6 @@ div.subiten{
   margin: 5px;
   width: 300px;
   height: 300px;
-  /* background-color: #448de0; */
 }
 .subimg{
   display: flex;
@@ -240,13 +238,7 @@ div.subiten{
   div.box{
     height: 330vh;
   }
-  div.section2-img {
   
-    
-    width: 80%;
-    height:80%;
-    
-  }
 }
 
 button.btn{
@@ -265,7 +257,7 @@ div.section2{
 }
 
 div.section2-img{
-  
+  margin-top: 200px;
   margin-left: 20px;
    width: 40%;
    height:80%;
@@ -357,7 +349,7 @@ div.section2-texto{
 }
 @media (max-width:710px){
   div.section2{
-    margin-top:450px ;
+    margin-top:500px ;
   }
   div.section2-img{
     
