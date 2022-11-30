@@ -162,11 +162,18 @@ p{
 h2{
   font-size: 2.5em;
 }
-.pag{
-  margin-top: 5rem;
-  height: 100vh;
-  width: 95vw;
+div.pag-texts{
+  width: 100%;
+  height: 300px;
+  /* color: red; */
 }
+div.header{
+  /* background-color: blue; */
+  height: 40vh;
+  width: 90vw;
+  /* margin-bottom: 100px; */
+}
+
 div.texto-pag2{
   text-align: center;
   display: flex;
@@ -222,6 +229,7 @@ div.subiten{
     flex-direction: column;
   }
 } */
+
 @media (max-width: 600px){
   div.subiten{
     width: 100%;
@@ -229,6 +237,12 @@ div.subiten{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  div.header{
+    background-color: blue;
+    height: 40vh;
+    width: 90vw;
+    margin-bottom: 100px;
   }
   div.subimg{
     display: flex;
@@ -245,10 +259,10 @@ button.btn{
   display: block; 
 }
 div.section2{
-  background-color: #448de0;
+  /* background-color: #448de0; */
   margin-top: 50px;
   flex-wrap: wrap;
-  gap: 2rem;
+  /* gap: 2rem; */
   margin-top: 50px;
   display: flex;
   align-items: center;
@@ -257,16 +271,20 @@ div.section2{
   height: 90vh;
  
 }
+/* .spacamento{
+  margin-top: 50px; */
+/* } */
 
 div.section2-img{
 
   
   margin-left: 20px;
    width: 40%;
-   height:80%;
+   height:40%;
   
 }
 div.section2-img img{
+  max-height: 500px;
   padding: 20px;
   width: 100%;
   height: 100%;
@@ -279,7 +297,7 @@ div.section2-texto{
   /* background-color: #448de0; */
   padding: 20px;
   margin-left: 20px;
-  width: 50%;
+  width: 40%;
   height: 70%;
 }
 @media (max-width: 650px){
@@ -289,6 +307,7 @@ div.section2-texto{
     
     /* justify-content: space-between; */
   }
+ 
   nav{
     visibility: hidden;
   }
@@ -345,6 +364,9 @@ div.section2-texto{
   }
 }
 @media (max-width: 700px){
+  div.section2{
+    height: 180vh;
+  }
   div.box{
     height: 330vh;
   }
