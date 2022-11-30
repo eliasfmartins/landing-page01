@@ -129,7 +129,7 @@ div.conteudo{
   display: flex;
   flex-direction: column;
   height: 400px;
-  align-items: flex-start;
+  align-items: center;
 }
 div.png img{
  margin-left: 20px;
@@ -236,7 +236,7 @@ div.subiten{
     justify-content: center;
   }
   div.box{
-    height: 330vh;
+    height: 330px;
   }
   
 }
@@ -257,11 +257,12 @@ div.section2{
 }
 
 div.section2-img{
-  margin-top: 200px;
+
+  /* margin-top: 200px; */
   margin-left: 20px;
    width: 40%;
    height:80%;
-  /* background-color: red; */
+   /* background-color: red; */
 }
 div.section2-img img{
   padding: 20px;
@@ -349,7 +350,7 @@ div.section2-texto{
 }
 @media (max-width:710px){
   div.section2{
-    margin-top:500px ;
+    /* margin-top:500px ; */
   }
   div.section2-img{
     
