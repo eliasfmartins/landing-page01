@@ -245,7 +245,7 @@ button.btn{
   display: block; 
 }
 div.section2{
-  background-color: red;
+ 
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 50px;
@@ -259,11 +259,11 @@ div.section2{
 
 div.section2-img{
 
-  /* margin-top: 200px; */
+  
   margin-left: 20px;
    width: 40%;
    height:80%;
-   /* background-color: red; */
+  
 }
 div.section2-img img{
   padding: 20px;
@@ -350,16 +350,14 @@ div.section2-texto{
   
 }
 @media (max-width:710px){
-  div.section2{
-    /* margin-top:500px ; */
-  }
+  
   div.section2-img{
     
   
     margin-left: 20px;
      width: 80%;
      height:80%;
-    /* background-color: red; */
+    
   }
   div.section2-texto{
     /* text-align: center; */
