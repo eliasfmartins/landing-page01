@@ -245,7 +245,8 @@ button.btn{
   display: block; 
 }
 div.section2{
- 
+  background-color: #448de0;
+  margin-top: 50px;
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 50px;
