@@ -237,10 +237,10 @@ div.subiten{
     align-items: center;
   }
   div.header{
-    background-color: blue;
+    /* background-color: blue; */
     height: 40vh;
     width: 90vw;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
   div.subimg{
     display: flex;
