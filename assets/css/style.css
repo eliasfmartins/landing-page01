@@ -112,18 +112,12 @@ div.content{
   flex-wrap: wrap;
   margin-top: 50px;
   display: flex;
-  /* background-color: blue; */
+ 
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-
-
-  
-  
-  
+  width: 100%
 }
 div.conteudo{
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -132,17 +126,12 @@ div.conteudo{
 div.png img{
  margin-left: 20px;
  width: 100%;
-  height: 100%;
-
-/* background-color: red; */
+height: 100%;
 }
 div.png{
-  /* aspect-ratio: auto; */
   width: 50%;
   height: 50%;
 }
-
-
 
 button{ 
   border: none;
@@ -179,23 +168,17 @@ div.texto-pag2{
   align-items: center;
 }
 div.box{
-  /* background-color: #448de0;  */
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
   margin-top: 3rem;
-  /* background-color: aquamarine; */
   width: 90vw;
   height: 120vh;
 }
 div.itens{
   display: flex;
-
   flex-wrap: wrap;
-
-  /* background-color: #fffefe; */
- 
 }
 div.subiten{
   box-shadow: 6px 1px 17px 0px gray;  
@@ -222,11 +205,6 @@ div.subiten{
   justify-content: flex-start;
 
 }
-/* @media (max-width: 853px){
-  div.itens{
-    flex-direction: column;
-  }
-} */
 
 @media (max-width: 600px){
   div.subiten{
@@ -242,26 +220,21 @@ div.subiten{
     justify-content: center;
   }
   div.box{
-    height: 340px;
+    height: auto;
   }
-  
 }
 
 button.btn{
   display: block; 
 }
 div.section2{
-  /* background-color: #448de0; */
   margin-top: 50px;
   flex-wrap: wrap;
-  /* gap: 2rem; */
-  /* margin-top: 50px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 100vw;
   height: auto;
- 
 }
 div.section2-img{ 
   margin-left: 20px;
@@ -278,8 +251,7 @@ div.section2-img img{
 
 
 div.section2-texto{
-  /* text-align: center; */
-  /* background-color: #448de0; */
+  
   padding: 20px;
   margin-left: 20px;
   width: 40%;
@@ -287,7 +259,7 @@ div.section2-texto{
 }
 @media (max-width: 650px){
   header{
-    width: 100vh;
+    width: 100vw;
     align-items: center;
     
     /* justify-content: space-between; */
