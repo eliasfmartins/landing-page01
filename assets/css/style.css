@@ -173,8 +173,8 @@ div.box{
   justify-content:center;
   align-items: center;
   margin-top: 3rem;
-  width: 90vw;
-  height: 120vh;
+  width: auto;
+  height: auto;
 }
 div.itens{
   display: flex;
@@ -326,17 +326,12 @@ div.section2-texto{
   
   div.section2-img{
     
-  
     margin-left: 20px;
      width: 80%;
      height:80%;
-    
   }
   div.section2-texto{
-    /* text-align: center; */
-    /* background-color: #448de0; */
     padding: 20px;
-    /* margin-left: 20px; */
     width: 80%;
     height: 80%;
   }
