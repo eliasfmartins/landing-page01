@@ -255,7 +255,7 @@ div.section2{
   margin-top: 50px;
   flex-wrap: wrap;
   /* gap: 2rem; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   align-items: center;
   justify-content: space-around;
