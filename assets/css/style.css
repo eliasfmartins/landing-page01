@@ -166,10 +166,10 @@ div.pag-texts{
   /* color: red; */
 }
 div.header{
-  /* background-color: blue; */
+  
   height: 40vh;
   width: 90vw;
-  /* margin-bottom: 100px; */
+  
 }
 
 div.texto-pag2{
@@ -236,12 +236,6 @@ div.subiten{
     justify-content: center;
     align-items: center;
   }
-  div.header{
-    /* background-color: blue; */
-    height: 40vh;
-    width: 90vw;
-    /* margin-bottom: 100px; */
-  }
   div.subimg{
     display: flex;
     align-items: center;
@@ -269,17 +263,10 @@ div.section2{
   height: auto;
  
 }
-/* .spacamento{
-  margin-top: 50px; */
-/* } */
-
-div.section2-img{
-
-  
+div.section2-img{ 
   margin-left: 20px;
    width: 40%;
    height:40%;
-  
 }
 div.section2-img img{
   max-height: 500px;
@@ -312,8 +299,6 @@ div.section2-texto{
   button.btn-mobile{
     visibility: visible;
   }
- 
-  
   div.log{
     position: absolute;
     top: 45px;
@@ -355,11 +340,6 @@ div.section2-texto{
     display: flex;
   }
  
-}
-@media (max-width: 1050px){
-  div.box{
-    height: 230vh;
-  }
 }
 @media (max-width: 700px){
   div.section2{
