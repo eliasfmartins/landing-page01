@@ -411,10 +411,57 @@ div.section4{
   width: 100%;
 }
 div.box-section4{
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 1rem;
   display: flex;
   
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 90%;
+  height: 80%;
+}
+div.card-s4{
+  padding: 0.1%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  width: 350px;
+  height: 512px;
+  /* background-color: #004797; */
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);;
+  
+}
+div.card-img{
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+ 
+}
+div.card-img img{
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
+}
+div.conteudo-texto{
+
+  display: flex;
+  width: 100%;
   height: 60%;
+  align-items: center;
+  justify-content: center;
+}
+div.card-text{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  
 }
 
