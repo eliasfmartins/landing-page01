@@ -400,10 +400,11 @@ div.blue-right{
   color: #fffefe;
 }
 div.simble{
-  display: flex;
+
+display: flex;
 width: 100vw;
 height: 30vh;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 }
 div.section4{
@@ -428,7 +429,7 @@ div.box-section4{
 }
 div.card-s4{
   padding: 0.1%;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px ;
   display: flex;
   width: 350px;
   height: 512px;
@@ -468,5 +469,42 @@ div.card-text{
   align-items: center;
   width: 90%;
   
+}
+footer{
+  margin-top: 50px;
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  background-color: #448de0;
+  color: white;
+}
+div.footer-trafalgar{
+  background-color: #004797;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer.footer-company{
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+
+}
+footer.footer-Region{
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+footer.foooter-help{
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
 }
 
