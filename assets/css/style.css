@@ -371,7 +371,7 @@ div.conteudo-blue{
 }
 .blue-left{
   /* background-color: aliceblue; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   padding: 2%;
