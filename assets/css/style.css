@@ -403,7 +403,18 @@ div.simble{
   text-align: center;
 }
 div.section4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+}
+div.box-section4{
+  display: flex;
+  
+  background-color: aqua;
+  width: 90%;
+  height: 60%;
 }
 
