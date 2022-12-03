@@ -400,17 +400,22 @@ div.blue-right{
   color: #fffefe;
 }
 div.simble{
-  text-align: center;
+  display: flex;
+width: 100vw;
+height: 30vh;
+justify-content: center;
+align-items: center;
 }
 div.section4{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 div.box-section4{
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
@@ -419,7 +424,7 @@ div.box-section4{
   
   /* background-color: aqua; */
   width: 90%;
-  height: 80%;
+  height: auto;
 }
 div.card-s4{
   padding: 0.1%;
