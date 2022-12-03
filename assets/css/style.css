@@ -359,7 +359,6 @@ div.block-blue{
   justify-content: center;
 }
 div.conteudo-blue{
-  /* background-color: red; */
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
@@ -368,7 +367,6 @@ div.conteudo-blue{
 }
 .blue-left{
   flex-wrap: wrap;
-  /* background-color: #978d00; */
   display: flex;
   align-items: center;
   padding: 2%;
@@ -383,7 +381,7 @@ div.conteudo-blue{
 }
 div.blue-right{
   padding: 2%;
-  /* background-color: #8b0b0b; */
+ display: flex;
   height: 100%;
   display: flex;
   width: 50%;
