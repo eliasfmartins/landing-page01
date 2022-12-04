@@ -344,7 +344,7 @@ div.block-blue{
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #004797;
+  background-image: linear-gradient(#67C3F3 ,#5A98F2);
   width: 90%;
   height: auto;
   border-radius: 15px;
@@ -353,7 +353,7 @@ div.block-blue{
 }
 div.conteudo-blue{
 
-  /* background-color: red; */
+  
   align-items: center;
   flex-wrap: wrap;
   display: flex;
@@ -362,7 +362,7 @@ div.conteudo-blue{
   height: 80%;
 }
 .blue-left{
-  /* background-color: aliceblue; */
+  
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -377,7 +377,7 @@ div.conteudo-blue{
   border-radius: 50%;
 }
 div.blue-right{
-  /* background-color: #448de0; */
+  
   display: flex;
   padding: 2%;
   height: 100%;
@@ -415,7 +415,7 @@ div.box-section4{
   gap: 1rem;
   display: flex;
   
-  /* background-color: aqua; */
+ 
   width: 90%;
   height: auto;
 }
@@ -425,7 +425,7 @@ div.card-s4{
   display: flex;
   width: 350px;
   height: 512px;
-  /* background-color: #004797; */
+  
   flex-direction: column;
   align-items: baseline;
   justify-content: space-between;
@@ -472,7 +472,7 @@ footer{
   height: auto;
   width: 100vw;
   display: flex;
-  background-color: #448de0;
+  background-image: linear-gradient(#67C3F3 ,#5A98F2);
   color: white;
   display: flex;
   justify-content: space-around;
