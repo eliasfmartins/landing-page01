@@ -11,6 +11,7 @@ body{
   
 }
 button.btn-mobile{
+  border: none;
   visibility: hidden;
   top: 5px;
   right: 1px;
