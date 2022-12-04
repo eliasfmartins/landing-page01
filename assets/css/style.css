@@ -471,8 +471,12 @@ div.card-text{
   
 }
 footer{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color:  #FFFFFF;
+  text-decoration: none;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 120px;
   height: auto;
   width: 100vw;
   display: flex;
@@ -484,56 +488,57 @@ footer{
   min-height: 500;
 }
 div.footer-trafalgar{
-  background-color: #004797;
-  width: 30%;
-  height: 300px;
+
+  width: 391px;
+  height: 201px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   min-width: 250px;
   
 }
 .footer-company{
-  align-items: center;
+  align-items: baseline;
   justify-content: space-around;
-  background-color: red;
+  
   width: 20%;
-  height: 70%;
+  height: 214px;
   flex-direction: column;
   display: flex;
-  min-width: 250px;
+  min-width: 100px;
 }
 .footer-Region{
-  align-items: center;
+  align-items: baseline;
   justify-content: space-around;
-  background-color: red;
+ 
   width: 20%;
-  height: 70%;
+  height: 214px;
   flex-direction: column;
   display: flex;
-  min-width: 250px;
+  min-width: 100px;
 }
 .footer-help{
-  align-items: center;
+  align-items: baseline;
   justify-content: space-around;
-  background-color: red;
+  
   width: 20%;
-  height: 70%;
+  height: 214px;
   flex-direction: column;
   display: flex;
-  min-width: 250px;
+  min-width: 100px;
 }
 .footer-trafalgar{
   display: flex;
   flex-direction: column;
 }
 .title-footer-main{
-  gap: 1rem;
+align-items: flex-start;
+gap: 1rem;
 display: flex;
 width: 80%;
 height: 40px;
-background-color: #350097;
+
 }
 div.logo-t{
   background-color: rgb(255, 255, 255);
@@ -545,5 +550,23 @@ div.logo-t{
   font-size: 30px;
   padding: 3%;
   color: #448de0;
+}
+.alinhamento-footer{
+  flex-direction: column;
+  align-items: baseline;
+  display: flex;
+  width: 90%;
+  height: 280px;
+ 
+}
+span{
+  margin-top: 30px;
+}
+footer p{
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: white;
 }
 
