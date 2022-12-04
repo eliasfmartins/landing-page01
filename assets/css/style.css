@@ -133,13 +133,22 @@ div.png{
   height: 50%;
 }
 
-button{ 
+button.pag{ 
   border: none;
   margin-top: 35px;
   padding: 12px 32px;
   border-radius: 25px;
   color: #fffefe;
   background-color: #448de0;
+  /* margin-right: 10px; */
+}
+button{ 
+  border: solid #448de0 2px;
+  margin-top: 35px;
+  padding: 12px 32px;
+  border-radius: 25px;
+  color:#448de0;
+  background-color:white;
   /* margin-right: 10px; */
 }
 p{
@@ -407,6 +416,10 @@ div.section4{
   height: auto;
   width: 100%;
 }
+.title-4{
+  text-align: center;
+  padding: 2%;
+}
 div.box-section4{
   flex-wrap: wrap;
   align-items: center;
@@ -418,6 +431,11 @@ div.box-section4{
  
   width: 90%;
   height: auto;
+}
+button.btn-transparant{
+  background-color: transparent;
+  border: none;
+  color: #448de0;
 }
 div.card-s4{
   padding: 0.1%;
@@ -458,7 +476,7 @@ div.card-text{
   padding: 5%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 90%;
   
 }
@@ -537,6 +555,7 @@ div.logo-t{
   display: flex;
   justify-content: center;
   width: 40px;
+  height: 40px;
   border-radius: 50%;
   align-items: center;
   font-size: 30px;
