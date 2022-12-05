@@ -191,7 +191,8 @@ div.itens{
   flex-wrap: wrap;
 }
 div.subiten{
-  box-shadow: 6px 1px 17px 0px gray;  
+  padding: 2%;
+  box-shadow: 6px 1px 17px 0px #80808021;  
   border-radius: 12px;
   margin: 5px;
   width: 300px;
