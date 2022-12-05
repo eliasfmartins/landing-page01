@@ -632,6 +632,11 @@ div.fixed{
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: 1s;
+}
+div.fixed:hover{
+  right: 2%;
+  border: white solid 2px;
 }
 @media (max-width: 700px){
   div.section2{
