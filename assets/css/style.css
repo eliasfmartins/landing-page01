@@ -165,9 +165,10 @@ div.pag-texts{
   /* color: red; */
 }
 div.header{
+  padding: 2%;
   
-  height: 25vh;
-  width: 90vw;
+  height: 35vh;
+  width: 80vw;
   
 }
 
@@ -188,15 +189,17 @@ div.box{
 }
 div.itens{
   display: flex;
+
   flex-wrap: wrap;
 }
 div.subiten{
   padding: 2%;
-  box-shadow: 6px 1px 17px 0px #80808021;  
+  box-shadow: 6px 1px 17px 0px #80808033;  
   border-radius: 12px;
   margin: 5px;
   width: 300px;
   height: 300px;
+  max-width: 400px;
 }
 .subimg{
   display: flex;
@@ -232,6 +235,10 @@ div.subiten{
   }
   div.box{
     height: auto;
+  }
+  div.itens{
+    align-items: center;
+    justify-content: center;
   }
 }
 
