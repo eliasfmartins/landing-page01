@@ -15,4 +15,5 @@ function toogleMenu(e) {
 } 
 function hideMenu(){
   nav.classList.remove('actived')
+  btn.classList.remove('actived')
 }
