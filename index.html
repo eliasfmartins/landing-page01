@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <div class="menu">
+    <div class="menu" id="menu">
       <div class="log">
         <div class="logo">T</div>
         <div class="texto-logo">
@@ -20,7 +20,7 @@
       </div>
       <nav class="options">
         <ul class="itens">
-          <li><a href="#virtual" class="preto" onclick="hideMenu()">Home</a></li>
+          <li><a href="#virtual" onclick="hideMenu()">Home</a></li>
           <li><a href="#" onclick="hideMenu()">Find a doctor</a></li>
           <li><a href="#" onclick="hideMenu()">Apps</a></li>
           <li><a href="#" onclick="hideMenu()">Testimonials</a></li>
@@ -195,11 +195,11 @@
 
     </div>
     <div class="simble">
-      <button type="button" class="semborda">&larr;</button>
-      <button type="button" class="semborda">O</button>
-      <button type="button" class="semborda">O</button>
-      <button type="button" class="semborda">O</button>
-      <button type="button" class="semborda">&rarr;</button>
+      <button type="button" class="semborda menor">&larr;</button>
+      <button type="button" class="semborda maior">&#9679</button>
+      <button type="button" class="semborda maior">&#9679</button>
+      <button type="button" class="semborda maior">&#9679</button>
+      <button type="button" class="semborda menor">&rarr;</button>
       
     </div>
 
@@ -303,7 +303,9 @@
       <a href="#">Instructions</a>
       <a href="#">How it works</a>
     </div>
-
+    <div class="fixed">
+      <a href="#menu">&#x27A4;</a>
+    </div>
   </footer>
   <script src="assets/js/script.js"></script>
 </body>

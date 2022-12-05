@@ -25,12 +25,13 @@ button.btn-mobile{
   width: 50px;
   position: absolute;
 }
+
  hr{
- background-color: #448de0;
+ background-image: linear-gradient(#67C3F3 ,#5A98F2);
  border-radius: 20px;
  border-color: black;
  padding: 2px;
- /* transition: 2s; */
+ transition: 2s;
 }
 div.log{
   top: -10px;
@@ -49,20 +50,20 @@ div.texto-logo{
   left: 60px;
 }
 div.logo{
-  position: absolute;
+ position: absolute;
  display: flex;
  margin-right: 16px;
  color: #fffefe;
  padding: 20px;
- height: 40px;
- width: 40px;
+ height: 50px;
+ width: 50px;
  font-size: 1.5em;
  font-weight: bold;
  align-items: center;
 
  justify-content: center;
  border-radius: 50% ;
- background-color: #448de0;
+ background-image: linear-gradient(#67C3F3 ,#5A98F2);
 }
 div.menu{
   margin-top: 25px;
@@ -140,7 +141,7 @@ button.pag{
   padding: 12px 32px;
   border-radius: 25px;
   color: #fffefe;
-  background-color: #448de0;
+  background-image: linear-gradient(#67C3F3 ,#5A98F2);
   /* margin-right: 10px; */
 }
 button{ 
@@ -162,7 +163,6 @@ h2{
 div.pag-texts{
   width: 100%;
   height: 300px;
-  /* color: red; */
 }
 div.header{
   padding: 2%;
@@ -207,7 +207,6 @@ div.subiten{
   border-radius: 12px;
   height: 40%;
   width: 100%;
-  /* background-color: red; */
 }
 .subtexto{
   padding: 10px;
@@ -272,8 +271,6 @@ button.semborda{
 
 div.section2-texto{
   
-  padding: 20px;
-  margin-left: 20px;
   width: 40%;
   height: 70%;
 }
@@ -281,8 +278,6 @@ div.section2-texto{
   header{
     width: 100vw;
     align-items: center;
-    
-    /* justify-content: space-between; */
   }
  
   nav{
@@ -323,7 +318,6 @@ div.section2-texto{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 2rem; */
     background-color: rgb(218, 218, 218);
     width: 100vw;
   
@@ -359,7 +353,6 @@ div.section-3{
 
 }
 div.block-blue{
-  /* flex-wrap: wrap; */
   padding: 5%;
   text-align: center;
   display: flex;
@@ -412,12 +405,18 @@ div.blue-right{
   color: #fffefe;
 }
 div.simble{
-
 display: flex;
 width: 100vw;
 height: 30vh;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
+}
+div.simble button.menor{
+  font-size: 3rem;
+}
+div.simble button.maior{
+  /* font-weight: 900; */
+  font-size: 3rem;
 }
 div.section4{
   display: flex;
@@ -591,6 +590,21 @@ footer a{
   text-decoration: none;
   color: white;
 }
+div.fixed{
+  padding: 5%;
+  transform: rotate(270deg)  ;
+  font-size: 2rem;
+  right: 3%;
+  bottom: 5%;
+  position: fixed;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(#67C3F3 ,#5A98F2);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 700px){
   div.section2{
     height: auto;
@@ -607,4 +621,18 @@ footer a{
   }
   
   
+}
+button.btn-mobile.actived hr.n1{
+  transform: rotate(405deg);
+  position: relative;
+  bottom: -15px;
+}
+button.btn-mobile.actived hr.n2{
+  background:transparent;
+  border: none;
+}
+button.btn-mobile.actived hr.n3{
+ transform: rotate(-405deg);
+ position: relative;
+ top: -9px;
 }

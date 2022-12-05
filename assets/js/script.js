@@ -10,7 +10,9 @@ btn.addEventListener('click', toogleMenu)
 function toogleMenu(e) {
   const nav = document.querySelector('.options')
   nav.classList.toggle('actived')
-}
+  btn.classList.toggle('actived')
+  
+} 
 function hideMenu(){
   nav.classList.remove('actived')
 }
