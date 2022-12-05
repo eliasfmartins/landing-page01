@@ -45,6 +45,7 @@ div.log{
 
 
 }
+
 div.texto-logo{
   position: absolute;
   left: 60px;
@@ -66,7 +67,7 @@ div.logo{
  background-image: linear-gradient(#67C3F3 ,#5A98F2);
 }
 div.menu{
-  margin-top: 25px;
+  
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -173,6 +174,7 @@ div.header{
 }
 
 div.texto-pag2{
+  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -274,9 +276,16 @@ div.section2-texto{
   width: 40%;
   height: 70%;
 }
+header{
+  padding-top: 22px;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+}
 @media (max-width: 650px){
   header{
     width: 100vw;
+    height: 13%;
     align-items: center;
   }
  
@@ -292,6 +301,8 @@ div.section2-texto{
     left: 40px;
   }
   nav.options.actived ul.itens{
+    margin-top: 13%;
+    /* background-color: red; */
     position: relative;
     visibility: visible;
     display: flex;
@@ -303,8 +314,25 @@ div.section2-texto{
     gap: 1rem;
     /* top: 50px; */
     height: 100vh;
-   
+    /* position: fixed; */
 
+  }
+  
+  
+  div.fixed{
+    padding: 5%;
+    transform: rotate(270deg)  ;
+    font-size: 2rem;
+    right: 3%;
+    bottom: 5%;
+    position: fixed;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    background-image: linear-gradient(#67C3F3 ,#5A98F2);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
   }
   nav.options.actived a {
     padding: 1rem;
@@ -591,15 +619,15 @@ footer a{
   color: white;
 }
 div.fixed{
-  padding: 5%;
+  padding: 2%;
   transform: rotate(270deg)  ;
   font-size: 2rem;
-  right: 3%;
+  right: 1%;
   bottom: 5%;
   position: fixed;
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background-image: linear-gradient(#67C3F3 ,#5A98F2);
   border-radius: 50%;
   align-items: center;

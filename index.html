@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-  <header>
-    <div class="menu" id="menu">
+<body >
+  <header id="header">
+    <div class="menu" >
       <div class="log">
         <div class="logo">T</div>
         <div class="texto-logo">
@@ -20,11 +20,11 @@
       </div>
       <nav class="options">
         <ul class="itens">
-          <li><a href="#virtual" onclick="hideMenu()">Home</a></li>
-          <li><a href="#" onclick="hideMenu()">Find a doctor</a></li>
-          <li><a href="#" onclick="hideMenu()">Apps</a></li>
-          <li><a href="#" onclick="hideMenu()">Testimonials</a></li>
-          <li><a href="#" onclick="hideMenu()">About us</a></li>
+          <li><a href="#header" onclick="hideMenu()">Home</a></li>
+          <li><a href="#find" onclick="hideMenu()">Find a doctor</a></li>
+          <li><a href="#apps" onclick="hideMenu()">Apps</a></li>
+          <li><a href="#testimonials" onclick="hideMenu()">Testimonials</a></li>
+          <li><a href="#about" onclick="hideMenu()">About us</a></li>
         </ul>
         <button class="btn-mobile" type="button">
           <hr class="n1"><br>
@@ -50,7 +50,7 @@
   </div>
   <div class="pag">
     <div class="texto-pag2">
-      <div class="header">
+      <div class="header" id="find">
         <h2>Our services <br>
           _____
         </h2>
@@ -125,7 +125,7 @@
       </div>
 
     </div>
-    <div class="section2">
+    <div class="section2" id="apps">
 
       <div class="section2-img png">
         <img src="assets/img/trafalgar-illustration sec02 1.png" alt="segunda-img-landingpage">
@@ -165,7 +165,7 @@
       </div>
 
     </div>
-    <div class="section-3">
+    <div class="section-3" id="testimonials">
       <div class="block-blue">
         <div class="title-blue">
           <h2>What our customer are saying</h2>
@@ -203,7 +203,7 @@
       
     </div>
 
-    <div class="section4">
+    <div class="section4" id="about">
       <div class="title-4">
         <h2>Check out our latest article <br>
         _____</h2>
@@ -304,7 +304,7 @@
       <a href="#">How it works</a>
     </div>
     <div class="fixed">
-      <a href="#menu">&#x27A4;</a>
+      <a href="#header">&#x27A4;</a>
     </div>
   </footer>
   <script src="assets/js/script.js"></script>
