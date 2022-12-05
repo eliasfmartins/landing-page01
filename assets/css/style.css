@@ -301,8 +301,8 @@ header{
     left: 40px;
   }
   nav.options.actived ul.itens{
-    margin-top: 13%;
-    /* background-color: red; */
+  
+    
     position: relative;
     visibility: visible;
     display: flex;
@@ -632,7 +632,7 @@ div.fixed{
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition: 1s;
+  transition: 0.3s;
 }
 div.fixed:hover{
   right: 2%;
