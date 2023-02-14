@@ -4,6 +4,7 @@ window.addEventListener('resize', ()=>{
   const nav = document.querySelector('.options')
   if(window.innerWidth<=600){
     nav.classList.remove('actived')
+    btn.classList.remove('actived')
   }
 })
 btn.addEventListener('click', toogleMenu)
